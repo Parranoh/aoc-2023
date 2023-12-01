@@ -1,0 +1,1 @@
+tr -dc 0-9\\n|awk -F '' '{r+=$1*10+$NF}END{print r}'
