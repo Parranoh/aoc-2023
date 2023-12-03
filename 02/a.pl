@@ -1,0 +1,1 @@
+%x=(r=>12,g=>13,b=>14);L:while(<>){while(/(\d+) (\w)/g){next L if($1>%x{$2})}$r+=$.}print"$r\n"
